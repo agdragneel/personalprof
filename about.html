@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritra: About</title>
+    <link rel="stylesheet" href="styleabout.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Aritra.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html"  class="active">About</a>
+            <a href="services.html" >Services</a>
+            <a href="contact.html" >Contact</a>
+            <!-- <a href="portfolio.html" >Portfolio</a> -->
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="about-content" id="borderbx">
+            <h1>"<span style="color:yellowgreen">Programmer</span> by Day, Gamer by <span style="color:yellowgreen">Night</span>"</h1>
+            <h3>Frontend ◉ GameDev ◉ Photoshop ◉Video Editing ◉Programming</h3>
+            <h4>Want to know more?</h4>
+        </div>
+
+        <div class="btnbox">
+            <a href="contact.html">Reach Out Now!</a>
+        </div>
+
+
+
+        <div class="about-content-para1">
+            <p>"Self-Taught Programmer, currently pursuing a degree in Computer Science and Engineering from Heritage Institute of Technology, Kolkata. Interested in everything that involves even a single line of code, my aim is to learn all I possibly can."
+
+            <br><br><br>
+
+            "Once a part of realme Community as a content writer, now a part-time geek spending time to improve programming knowledge and computer skills. When it comes to the digital world, the sky's too less a limit."
+
+            <br><br><br>
+
+            "Actively looking for part-time jobs and internships that can help me move on to higher levels of expertise. Interested fields include Game Development, Web Development, Artifical Intelligence and Data Analysis."
+            </p>
+        </div>
+
+        
+
+
+        
+    </section>
+    
+    <script>
+        var x=0;
+        var borderbox=document.getElementById("borderbx");
+        
+        borderbox.addEventListener("click",function(event){
+            if(x==0){
+            borderbox.style.border="2px dashed";
+            x=1;;
+            }
+            else if(x==1){
+                borderbox.style.border="2px dashed transparent";
+                x=0;
+            }
+        })
+    
+    </script>
+</body>
+</html>
